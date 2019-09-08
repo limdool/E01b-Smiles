@@ -1,43 +1,46 @@
 # E01b-Smiles
-An exercise exploring variables and loops using Python Arcade.
+I have edited year and fullname in the LICENSE file. After editing, I made some changes on coordinates. As a result, I was able to place the smiley face at the center of the window. When I finished placing the face at the center, I edited READMe.ed. I really enjoyed the assignment. 
 
-This repository contains several files that you will need to alter to complete the assignment. The instructions for the exercise are also on Canvas.
+This exercise involves exploring variables and using Python Arcade. 
 
-Comments in Python are marked by a # sign (for single-line comments) or three matching quotation marks (''' or """) if a comment requires more than one line. They should also appear in a different color in VS Code. The Python Interpreter ignores comments, so you can safely include any information you want there.
+You will change several files to complete the assignment. You can find the instructions on Canvas.
 
-As with your assignments, please edit the LICENSE file (replace the [year] [fullname] with the current year and your name); you will also be expected to edit README.md (this file) to describe what you have accomplished.
+If a comment is a single-line in Python, it will be marked by a # sign. If a comment needs more than one line, it will be marked by 3 matching quotations (''' or """). In VS Code, they will appear in a different color. Since the comments will be ignored, it is safe to include any information. 
+
+While you are working on the assignments, please edit the LICENSE file. Replace the [year] with the current year and [fullname] with your full name. Please also edit README.md. Please describe what you have done. 
 
 ---
 
-As always, Fork this repository, and then Clone it to your local computer.
+Before you start the assignment, Fork this repository and Clone it your computer. 
 
-Before you begin, you will need to install Python Arcade, the graphics library we will be using for the first half of the semester. Open the Terminal (either by clicking on the magnifying glass and searching for CMD, or open the Terminal in VS Code) and type the following:
+Please install Python Arcade before you start. We will be using Python Arcade for the first half of the semester. Next, click on the magnifying glass and search for CMD, or open the Terminal in VS Code and type the following:
 
-*pip install arcade --user*
+*pip install arcade --user* 
 
-pip is a tool for downloading and installing Python packages. arcade is the name of the package we will be using. When you type the command, you should see the components it is installing (with corresponding progress bars).
+pip is for downloading and installing Python packages. We will use a package called arcade. When the command is typed, you will be able to see the components it is installing with corresponding progress bars. 
 
-When arcade has been installed, we can get to work:
+We can start working when the installation is done.
 
-First, open main1.py. I am drawing several shapes that, if properly assembled, can form a smiley face. Right now, the shapes are all being drawn at (0,0), which is the bottom-left corner of the window. See if you can use those shapes to draw a smiley face in the center of the window. The small gray dots are catch lights for the eyes.
+Please open main1.py. There are some shapes. They are all drawn at (0,0), the bottom-left corner of the window. Use the shapes and draw a smiley face in the center of the window. The small gray dots are catch lights for the eyes. 
 
-The end result should look something like this:
+The result will look like this (Your result does not have to be as exact as the picture.):
 
-![Smile!](https://github.com/BL-MSCH-C220-F19/E01b-Smiles/blob/master/smile.png)
+![Smile!](https://github.com/BL-MSCH-C220-F19/E01b-Smiles/blob/master/smile.png) 
 
-When you have placed the shapes correctly, save the file and open main2.py. The only change I have made is to define coordinates (face_x and face_y) that represent the center of the circle. Figure out offsets for the other shapes in relation to face_x and face_y. Use face_x and face_y to move all the shapes to the middle of the window. Save your changes.
+When the shapes are placed correctly, please save the file and open main2.py. I only defined coordinates (face_X and face_y), which is the center of the circle. Find out the offsets for the other shapes related to face_x and face_y. Please move all the shapes to the center of the window by using face_x and face_y. When you are done, please save.
 
-Next, in main3.py, I have created several new coordinates to represent each of the shapes: smile, eye1, eye2, catch1, and catch2. Use what you learned in main2.py to define each of those coordinates in relation to face_x and face_y. Move the face to the middle of the window. You should only have to edit lines 13 through 18. Save your changes.
 
-Open main4.py. You will now be drawing many faces in the window. Editing lines 20 through 24, draw a grid of overlapping faces. Now, play with the values on lines 16 and 18. What happens when you adjust those numbers? Save your changes.
+In main3.py, there are new coordinates to represent each of the shapes: smile, eye1, eye2, catch1, and catch2. Define each of the coordinates related to face_x and face_y by using what you learned in main.2py. Move the face to the center of the window. You will only have to edit lines 13 through 18. When you are done, please save. 
 
-When you have completed the exercise, commit your changes and push them back to GitHub. Turn in the URL of your repository on canvas.
+Please open main4.py. You will be drawing many faces in the window. Draw a grid of overlapping faces by editing lines 20 through 24. When you are done, play with the values on lines 16 and 18. What happens when you play with the values? Please save your changes when you are done. 
 
-*Extra credit:* 
+When you finish the assignment, save the changes and push them back to GitHub. Submit the URL of your repository on canvas.
 
-main5.py is much more complicated, but it allows the smiley face to track mouse movements. Add a comment to every line describing what is happening. Save those changes.
+Next step is the extra credit. 
 
-If you want to further explore Python Arcade, the API and some sample projects are available at [arcade.academy](http://arcade.academy).
+main5.py is difficult; however, it allows the smiley face to track mouse movements. Please add a comment to every line describing what is happening. Please save the changes. 
+
+If you are interested to explore Python Arcade further, go to the following link: http://arcade.academy. Some sample projects will be available at [arcade.academy].
 
 ---
 
